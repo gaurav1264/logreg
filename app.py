@@ -15,7 +15,7 @@ def prepare_input(gre, rating, cgpa):
     return pd.DataFrame(data, columns=feature_names)
 
 # Set up Streamlit UI
-st.title("📘 Admission Prediction App")
+st.title("📘 Admission Prediction App - GA")
 st.markdown("This app predicts whether a student will be **admitted** or **rejected** based on GRE Score, University Rating, and CGPA.")
 
 # Input fields
